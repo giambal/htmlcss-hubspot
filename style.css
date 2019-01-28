@@ -3,6 +3,10 @@
   box-sizing: border-box;
 }
 
+
+
+
+
 /* nav bar blu */
 
 .nav1{
@@ -62,6 +66,21 @@
   color: #0d325a;
 }
 
+
+
+
+
+/* container 1000px */
+
+.general-container{
+  width: 70vw;
+  margin: auto;
+}
+
+
+
+
+
 /* nav bar grigia */
 
 .nav2{
@@ -73,25 +92,20 @@
   font-size: 20px;
 }
 
-/* container 1000px */
-
-.general-container{
-  width: 1000px;
-  margin: auto;
-}
-
 .nav2 > .general-container::after{
   content: "";
   display: table;
   clear: both;
 }
 
-.nav2-padding{
-  padding: 3px 15px 3px 15px;
+
+#nav2-lan{
+  border-right: 2px solid #cbd6e2;
+  padding: 3px 15px 3px 0px;
 }
 
-#nav2-lan-border{
-  border-right: 2px solid #cbd6e2;
+#nav2-sales{
+  padding: 3px 15px 3px 15px;
 }
 
 #search{
@@ -121,4 +135,38 @@
   margin: 0px 15px 0px 15px;
   padding: 10px 15px 10px 15px;
   font-size: 15px;
+}
+
+
+
+
+
+/* nav barra bianca */
+
+.nav3{
+  width:100vw;
+  background-color: white;
+  padding: 20px;
+  color: #33475b;
+}
+
+.nav3 > .general-container::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.nav3 .right{
+  margin-top: 5px;
+}
+
+.nav3 span{
+  padding: 10px 25px 10px 25px;
+}
+
+.nav3 span:hover{
+  background-color: white;
+  color: #33475b;
+  border: 2px solid #33475b;
+  border-radius: 5px;
 }
