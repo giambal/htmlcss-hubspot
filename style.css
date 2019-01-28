@@ -3,6 +3,8 @@
   box-sizing: border-box;
 }
 
+/* nav bar blu */
+
 .nav1{
   width:100vw;
   background-color:#0d325a;
@@ -10,8 +12,8 @@
   border-top:2px solid darkorange;
 }
 
-.container{
-  width: 1300px;
+.nav-container{
+  width: 1450px;
   margin: auto;
 }
 
@@ -55,6 +57,68 @@
 }
 
 .navbar-item:hover{
+  line-height: 58px;
   background-color: white;
   color: #0d325a;
+}
+
+/* nav bar grigia */
+
+.nav2{
+  width:100vw;
+  background-color: #f5f8fa;
+  border-bottom: 1px solid #cbd6e2;
+  padding: 20px;
+  color: #0d325a;
+  font-size: 20px;
+}
+
+/* container 1000px */
+
+.general-container{
+  width: 1000px;
+  margin: auto;
+}
+
+.nav2 > .general-container::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.nav2-padding{
+  padding: 3px 15px 3px 15px;
+}
+
+#nav2-lan-border{
+  border-right: 2px solid #cbd6e2;
+}
+
+#search{
+  width:20px;
+  height: 20px;
+  position: relative;
+  top:3px;
+}
+
+#login{
+  color: #ff7a59;
+  background-color: white;
+  padding: 5px;
+  border: 1px solid #ff7a59;
+  border-radius: 2px;
+  margin: 0px 15px 0px 15px;
+  padding: 10px 15px 10px 15px;
+  font-size: 15px;
+}
+
+#hsfree{
+  color: white;
+  background-color: #ff7a59;
+  padding: 5px;
+  border: 1px none ;
+  border-radius: 2px;
+  margin: 0px 15px 0px 15px;
+  padding: 10px 15px 10px 15px;
+  font-size: 15px;
 }
