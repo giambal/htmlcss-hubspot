@@ -170,3 +170,74 @@
   border: 2px solid #33475b;
   border-radius: 5px;
 }
+
+
+
+
+/* background celeste */
+
+.celeste{
+  background-image: url("img/sfondo.jpg");
+  background-size: cover;
+  height: 600px;
+}
+
+.celeste > .general-container{
+  color: white;
+  padding: 70px 0px 50px 0px;
+  width: 30vw;
+  margin-left: 15vw;
+}
+
+.celeste div{
+  padding-top: 40px;
+}
+
+#celestetitle1{
+  font-size: 60px;
+}
+
+#celestetitle2{
+  font-size: 20px;
+}
+
+#celestebutton{
+  width: 12vw;
+  text-align: center;
+  border: 2px solid white;
+  background-color: white;
+  padding:20px;
+  margin-top:20px;
+  color: #33475b;
+  border-radius: 4px;
+}
+
+#celestebutton:hover{
+  background-color: #cecece;
+  border-color: #cecece;
+}
+
+
+
+
+
+/* sezione cubo */
+
+.cubo{
+  margin-top: 30px;
+  text-align: center;
+}
+
+.cubo img{
+  width: 20vw;
+}
+
+.cubo h2{
+  font-size:30px;
+  color:#0d325a;
+  margin-bottom: 20px;
+}
+
+.cubo h3{
+  color: #0d325a;
+}
