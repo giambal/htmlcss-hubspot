@@ -11,6 +11,7 @@
 
 .nav1{
   width:100vw;
+  max-width:100%;
   background-color:#0d325a;
   height:60px;
   border-top:2px solid darkorange;
@@ -85,6 +86,7 @@
 
 .nav2{
   width:100vw;
+  max-width:100%;
   background-color: #f5f8fa;
   border-bottom: 1px solid #cbd6e2;
   padding: 20px;
@@ -145,6 +147,7 @@
 
 .nav3{
   width:100vw;
+  max-width:100%;
   background-color: white;
   padding: 20px;
   color: #33475b;
@@ -192,6 +195,7 @@ main{
   background-size: cover;
   height: 600px;
   width: 100vw;
+  max-width:100%;
 }
 
 .celeste > .general-container{
@@ -257,7 +261,7 @@ main{
   margin-bottom: 30px;
 }
 
-.cubo h3{
+.cubo p{
   color: #0d325a;
   margin-bottom: 40px;
 }
@@ -268,23 +272,74 @@ main{
 
 /* sezione white boxes */
 
-.folated-boxes .general-container{
-  margin-top: 20px;
+.floated-boxes .general-container{
+  margin-top: 80px;
 }
 
 .floated-boxes img{
   width: 250px;
   height: 250px;
-  padding: 15px;
+  padding-bottom:  15px;
 }
 
 .box{
   background-color: white;
   border-radius: 5px;
+  padding:10px;
 }
 
-#special-box .box::after{
+#special-box{
+  width:100%;
+}
+
+#special-box::after{
   content: " ";
   display: table;
   clear: both;
+}
+
+#box-item1{
+  width:40%;
+  padding: 15px;
+}
+
+#box-item2{
+  width:60%;
+  padding:20px;
+}
+
+#popular hr{
+  display: inline-block;
+  width: 65%;
+  margin-left: 20px;
+}
+
+#popular p{
+  display: inline-block;
+}
+#popular{
+  margin: 40px 0 40px 0;
+}
+
+.box-item{
+  text-align: center;
+}
+
+.box .orange-button{
+  width: 40%;
+  margin: auto;
+}
+
+.box-item {
+  color: #0d325a;
+  margin-bottom: 20px;
+}
+
+.box-item h2{
+  font-size:30px;
+  margin-bottom: 30px;
+}
+
+.box-item span{
+  padding: 40px;
 }
