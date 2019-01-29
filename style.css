@@ -392,7 +392,7 @@ main{
 
 /* sezione numbers */
 
-.numbers{
+.seagreen{
   width: 100vw;
   max-width: 100%;
   background-color: lightseagreen;
@@ -402,18 +402,18 @@ main{
   text-align: center;
 }
 
-.numbers-text {
+.seagreen-text {
   width: 50vw;
   margin: auto;
   margin-top: 50px;
 }
 
-.numbers-text h1{
+.seagreen-text h1{
   font-size: 35px;
   padding: 15px;
 }
 
-.numbers-text p{
+.seagreen-text p{
   font-size: 19px;
   margin-bottom: 40px;
 }
