@@ -270,22 +270,16 @@ main{
 
 
 
-/* sezione white boxes */
+/* sezione box unico */
 
-.floated-boxes .general-container{
+.box-unico .general-container{
   margin-top: 80px;
 }
 
-.floated-boxes img{
+.box-unico img{
   width: 250px;
   height: 250px;
-  padding-bottom:  15px;
-}
-
-.box{
-  background-color: white;
-  border-radius: 5px;
-  padding:10px;
+  padding-bottom:  10px;
 }
 
 #special-box{
@@ -300,7 +294,7 @@ main{
 
 #box-item1{
   width:40%;
-  padding: 15px;
+  padding: 10px;
 }
 
 #box-item2{
@@ -308,16 +302,16 @@ main{
   padding:20px;
 }
 
-#popular hr{
+.popular hr{
   display: inline-block;
   width: 65%;
-  margin-left: 20px;
 }
 
-#popular p{
+.popular p{
   display: inline-block;
+  padding: 10px;
 }
-#popular{
+.popular{
   margin: 40px 0 40px 0;
 }
 
@@ -342,4 +336,48 @@ main{
 
 .box-item span{
   padding: 40px;
+}
+
+
+
+
+
+/* sezione white boxes con float */
+
+
+.floated-boxes .general-container{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.floated-boxes .left{
+  width: 100%;
+}
+
+.floated-boxes img{
+  width: 250px;
+  height: 250px;
+  padding-bottom:  10px;
+  padding-top: 15px;
+}
+
+.box .orange-button{
+  margin-top: 20px;
+}
+
+.floated-boxes .general-container::after{
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.box{
+  background-color: white;
+  border-radius: 5px;
+  width: 31.3333%;
+  padding: 10px;
+}
+
+#mid-margin{
+  margin: 0 3% 0 3%;
 }
