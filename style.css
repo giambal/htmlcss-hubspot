@@ -574,7 +574,7 @@ main{
 }
 
 #persona-container > img {
-  width: 200px;
+  width: 250px;
   height: 250px;
 }
 
@@ -588,8 +588,31 @@ main{
   background-color: pink;
   text-align: center;
   border-radius: 50%;
+  width: 250px;
+  height: 250px;
 }
 
 .orange-button:hover{
   opacity: 0.5;
+}
+
+
+
+
+/* fumetto in basso a destra */
+
+.fumetto{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #0d325a;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+.fumetto img{
+  position: absolute;
+  top:10px;
+  right:10px;
 }
