@@ -401,6 +401,7 @@ main{
   padding: 50px;
   color: white;
   text-align: center;
+  margin-bottom: 80px;
 }
 
 .seagreen-text {
@@ -488,7 +489,7 @@ main{
 /* sezione partners */
 
 .partners{
-  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 .partners h2{
@@ -550,3 +551,45 @@ main{
 
 
 /* sezione offerta */
+
+.offerta > .general-container::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.offerta h2{
+  font-size:40px;
+  color:#0d325a;
+}
+
+.offerta p{
+  color: #0d325a;
+  font-size: 15px;
+}
+
+.off-container{
+  width: 50%;
+  padding: 20px;
+}
+
+#persona-container > img {
+  width: 200px;
+  height: 250px;
+}
+
+.off-container > .orange-button {
+  width: 40%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+#persona-container{
+  background-color: pink;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.orange-button:hover{
+  opacity: 0.5;
+}
