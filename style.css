@@ -381,3 +381,39 @@ main{
 #mid-margin{
   margin: 0 3% 0 3%;
 }
+
+.floated-boxes .box-item p , li{
+  text-align: left;
+  font-size: 15px;
+}
+
+
+
+
+/* sezione numbers */
+
+.numbers{
+  width: 100vw;
+  max-width: 100%;
+  background-color: lightseagreen;
+  height: 800px;
+  padding: 50px;
+  color: white;
+  text-align: center;
+}
+
+.numbers-text {
+  width: 50vw;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.numbers-text h1{
+  font-size: 35px;
+  padding: 15px;
+}
+
+.numbers-text p{
+  font-size: 19px;
+  margin-bottom: 40px;
+}
