@@ -481,3 +481,72 @@ main{
   margin: auto;
   margin-top: 10px;
 }
+
+
+
+
+/* sezione partners */
+
+.partners{
+  margin-top: 80px;
+}
+
+.partners h2{
+  font-size:40px;
+  color:#0d325a;
+}
+
+.partners p{
+  color: #0d325a;
+  font-size: 25px;
+}
+
+.partners > .general-container::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#left-container{
+  width: 40%;
+  padding:20px;
+}
+
+#right-container{
+  width: 60%;
+  padding: 10px;
+}
+
+.loghi-part-top::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.loghi-part-bot::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.loghi-part-top{
+  width: 100%;
+  padding: 10px;
+}
+
+.loghi-part-bot{
+  width: 100%;
+  padding: 10px;
+}
+
+#right-container img{
+  width: 100px;
+  height: 20px;
+  padding-left: 50px;
+}
+
+
+
+
+
+/* sezione offerta */
