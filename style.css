@@ -398,6 +398,18 @@ main{
   transition: 0.3s;
 }
 
+.fa-check-circle{
+  color: #ff7a59;
+}
+
+.box-item > ul li{
+  display: inline-block;
+}
+
+.box-item > ul{
+  text-align: left;
+}
+
 
 
 
@@ -648,4 +660,64 @@ main{
   cursor: pointer;
   transform: perspective(10px) translateZ(0.5px);
   transition: 0.3s;
+}
+
+
+
+
+/* footer */
+
+footer{
+  width: 100vw;
+  max-width: 100%;
+  background-color: #33475b;
+  color: #fff;
+}
+
+footer > .general-container::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer > .general-container > .left{
+  padding: 40px 0 40px 0;
+}
+
+.lista-footer{
+  width: 20%;
+  margin: 2.5%;
+}
+
+.lista-footer > ul li{
+  list-style: none;
+  display: block;
+}
+
+.lista-footer > h3{
+  display: block;
+  padding: 10px;
+}
+
+.lista-footer .orange-button{
+  background-color: white;
+  color:#33475b;
+  text-align: center;
+}
+
+.lista-footer > p , a , i {
+  padding: 10px;
+}
+
+.footer-lan{
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+footer .right{
+  margin-top: 50px;
+}
+
+footer span{
+  padding-right: 20px;
 }
