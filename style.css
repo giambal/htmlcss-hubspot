@@ -636,6 +636,10 @@ main{
   margin-bottom: 100px;
 }
 
+.offerta{
+  padding-bottom: 30px;
+}
+
 
 
 /* fumetto in basso a destra */
@@ -672,6 +676,7 @@ footer{
   max-width: 100%;
   background-color: #33475b;
   color: #fff;
+  /* margin-top: 30px; */
 }
 
 footer > .general-container::after{
